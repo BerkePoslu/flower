@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  overflow: hidden;
+  background: #ffffff;
+}
+h1 {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 90vh;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;  
+  color: #fff;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+svg#flower-frame {
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+}
+
+
+
+#Footer_group_1_,
+[id^=PinkFlowerGroup],
+[id^=BaseGroup] path,
+[id^=LeafGroup] path,
+path[id^=Stroke],
+g[id^=BudGroup] g[id^=BudGroup] g[id^=Bud],
+#Bud8_1_,
+#Bud10_1_,
+#Bud23_1_,
+#Bud26_1_,
+[id^=Dots],
+[id^=Flourish] {
+  visibility: hidden;
+}
